@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Copy to-avorion-mover",
+        "command": "to-avorion-mover:copy"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "to-avorion-mover",
+          "submenu": [
+            {
+              "label": "Copy",
+              "command": "to-avorion-mover:copy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
